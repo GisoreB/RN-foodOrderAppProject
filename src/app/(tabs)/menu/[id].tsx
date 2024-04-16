@@ -1,6 +1,6 @@
-import products from "@/assets/data/products";
-import Button from "@/src/components/Button";
-import { defaultProductImage } from "@/src/components/ProductListItem";
+import Button from "@/components/Button";
+import { defaultProductImage } from "@/components/ProductListItem";
+import products from "@assets/data/products";
 import { Stack, useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";

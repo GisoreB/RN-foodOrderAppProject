@@ -1,6 +1,6 @@
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 
-import Colors from "@/src/constants/Colors";
+import Colors from "@/constants/Colors";
 import { Product } from "../types";
 import { Link } from "expo-router";
 
